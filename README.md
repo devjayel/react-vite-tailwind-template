@@ -1,8 +1,43 @@
-# React + Vite
+# Template React Vite by bossROD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a template for a React project using **React**, **vite**, **Tanstack Router**, **Tanstack Query** and **Zustand**. It includes **ESLint**, **Prettier**, and **Husky** for code quality and linting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Rules
+
+Please read the repo **Code Standards** here [README.code-standards.md](./README.code-standards.md)
+
+## Clone
+
+```bash
+npx degit https://github.com/constROD/template-react-vite.git
+```
+
+## Prerequisites
+
+- Download extension [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) in your VSCode.
+- Install [node](https://nodejs.org/en) using [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm) (check version in [.nvmrc](./.nvmrc))
+- Install [pnpm](https://pnpm.io/) (check version in [package.json](./package.json) file look for `packageManager`)
+- Follow [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/overview) for routing.
+
+## Installation
+
+- Install dependencies.
+
+```bash
+pnpm i
+```
+
+**Development Mode:**
+
+```bash
+pnpm dev
+```
+
+**Production Mode:**
+
+```bash
+pnpm build
+pnpm start
+```
