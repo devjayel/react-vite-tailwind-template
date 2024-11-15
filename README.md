@@ -1,43 +1,44 @@
-# Template React Vite by bossROD
+# Template React Vite Tailwind
 
 ## Description
+This is a template for a React project using Vite and Tailwind CSS. Inspired in Laravel Ecosystem.
 
-This is a template for a React project using **React**, **vite**, **Tanstack Router**, **Tanstack Query** and **Zustand**. It includes **ESLint**, **Prettier**, and **Husky** for code quality and linting.
-
-## Rules
-
-Please read the repo **Code Standards** here [README.code-standards.md](./README.code-standards.md)
+## Features
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Routing
+- Authentication (Firebase)
+- Database (Firebase)
 
 ## Clone
 
 ```bash
-npx degit https://github.com/constROD/template-react-vite.git
+git clone https://github.com/constROD/template-react-vite.git
 ```
 
 ## Prerequisites
 
-- Download extension [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) in your VSCode.
-- Install [node](https://nodejs.org/en) using [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm) (check version in [.nvmrc](./.nvmrc))
-- Install [pnpm](https://pnpm.io/) (check version in [package.json](./package.json) file look for `packageManager`)
-- Follow [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/overview) for routing.
+- [Node.js](https://nodejs.org/en/)
 
 ## Installation
 
 - Install dependencies.
 
 ```bash
-pnpm i
+npm i
 ```
 
 **Development Mode:**
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 **Production Mode:**
 
 ```bash
-pnpm build
-pnpm start
+npm run build
+npm run start
 ```
