@@ -15,7 +15,7 @@ This is a template for a React project using Vite and Tailwind CSS. Inspired in 
 ## Clone
 
 ```bash
-git clone https://github.com/constROD/template-react-vite.git
+git clone https://github.com/devjayel/react-vite-tailwind-template.git
 ```
 
 ## Prerequisites
